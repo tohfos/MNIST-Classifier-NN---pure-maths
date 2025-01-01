@@ -19,10 +19,10 @@ This project implements a **neural network from scratch** using only **NumPy**, 
    - Labels were one hot encoded.
 ### 2. **Forward Propagation**
    - Compute activations for each layer using weighted sums and activation functions.
-   - Activations pass through non-linearities like sigmoid or ReLU for more expressive power.
+   - Activations pass through non-linearities using softmax and ReLU for more expressive power.
 
 ### 3. **Loss Calculation**
-   - Compute the error between predictions and true labels using a chosen loss function (e.g., Mean Squared Error or Cross-Entropy Loss).
+   - Compute the error between predictions and true labels.
 
 ### 4. **Backpropagation**
    - Derive gradients for weights and biases by manually implementing the chain rule.
@@ -45,7 +45,7 @@ This project implements a **neural network from scratch** using only **NumPy**, 
    - Adjust weights using gradient descent.
 
 3. Evaluate the model:
-   - Test the trained network on unseen data to measure accuracy and generalization.
+   - Test the trained network on unseen data to measure accuracy and generalization. (85% Accuracy).
 
 ## Final notes 
 This project was inspired by the tutorial done by Samson Zhang please check it out https://www.youtube.com/watch?v=w8yWXqWQYmU!
